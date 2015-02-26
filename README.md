@@ -1,4 +1,4 @@
-# gbitmap-example
+# gbitmap-sequence-example
 
 Example app showing the usage of the 
 [`GBItmapSequence`](https://developer.getpebble.com/docs/c/Graphics/Graphics_Types/#GBitmapSequence) 
