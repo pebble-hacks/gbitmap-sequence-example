@@ -1,0 +1,27 @@
+{
+  "uuid": "0b34956b-7dcb-4c62-bba7-5e792dbb603f",
+  "shortName": "gbitmap-sequence",
+  "longName": "gbitmap-sequence",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "targetPlatforms": [
+    "basalt"
+  ],
+  "sdkVersion": "3",
+  "resources": {
+    "media": [
+      {
+        "type": "raw",
+        "name": "ANIMATION",
+        "file": "images/animation.png"  
+      }
+    ]
+  }
+}
