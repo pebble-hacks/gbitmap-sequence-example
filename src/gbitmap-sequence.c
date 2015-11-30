@@ -67,7 +67,9 @@ static void main_window_unload(Window *window) {
 static void init() {
   s_main_window = window_create();
   window_set_background_color(s_main_window, GColorBlack);
+#if defined(PBL_SDK_2)
   window_set_fullscreen(s_main_window, true);
+#endif
   window_set_window_handlers(s_main_window, (WindowHandlers) {
     .load = main_window_load,
     .unload = main_window_unload,
